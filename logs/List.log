@@ -1,0 +1,1719 @@
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://172.16.10.71:8080], timeout = 0
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://172.16.10.71:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{}->http://172.16.10.71:8080]]
+10 四月 2012 17:30:54 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 17:30:54 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 17:30:54 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesClient$1 - Attempt 1 to execute request
+10 四月 2012 17:30:54 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 17:30:54 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 17:30:54 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 17:30:54 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 17:30:54 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 17:30:54 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 09:30:57 GMT[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 17:30:54 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 17:30:54 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 17:30:54 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 17:30:54 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 17:30:54 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 09:30:57 GMT
+10 四月 2012 17:30:54 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesClient$1 - Connection can be kept alive indefinitely
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 412 Precondition Failed
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesResponse - Content-Length: 7
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 09:30:57 GMT
+10 四月 2012 17:30:54 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 17:30:54 DEBUG apache.http.wire - << "Bad URL"
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://172.16.10.71:8080]][null]; keep alive indefinitely
+10 四月 2012 17:30:54 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://172.16.10.71:8080], timeout = 0
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://172.16.10.71:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{}->http://172.16.10.71:8080]]
+10 四月 2012 17:38:59 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 17:38:59 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 17:38:59 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesClient$1 - Attempt 1 to execute request
+10 四月 2012 17:38:59 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 17:38:59 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 17:38:59 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 17:38:59 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 17:38:59 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 17:38:59 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 09:39:02 GMT[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 17:38:59 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 17:38:59 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 17:38:59 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 17:38:59 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 17:38:59 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 09:39:02 GMT
+10 四月 2012 17:38:59 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesClient$1 - Connection can be kept alive indefinitely
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 412 Precondition Failed
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesResponse - Content-Length: 7
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 09:39:02 GMT
+10 四月 2012 17:38:59 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 17:38:59 DEBUG apache.http.wire - << "Bad URL"
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is reusable.
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - Pooling connection [HttpRoute[{}->http://172.16.10.71:8080]][null]; keep alive indefinitely
+10 四月 2012 17:38:59 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 17:39:16 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 17:39:16 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 17:39:16 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 17:41:05 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 17:41:05 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 17:41:05 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:08:57 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:08:57 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 18:08:57 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:08:58 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.71:8080]
+10 四月 2012 18:08:58 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:08:58 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:08:58 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:08:58 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:08:58 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 18:08:58 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:08:58 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:08:58 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:08:58 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:08:58 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:09:01 GMT[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:08:58 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:08:58 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:08:58 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:08:58 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 18:08:58 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:09:01 GMT
+10 四月 2012 18:08:58 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:08:58 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:08:58 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:08:58 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:08:58 DEBUG client.cloudfiles.FilesResponse - Content-Length: 7
+10 四月 2012 18:08:58 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:09:01 GMT
+10 四月 2012 18:08:58 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:08:58 DEBUG apache.http.wire - << "Bad URL"
+10 四月 2012 18:08:58 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@587c94
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:09:57 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.71:8080]
+10 四月 2012 18:09:57 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:09:57 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:09:57 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:09:57 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:09:57 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 18:09:57 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:09:57 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:09:57 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:09:57 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:09:57 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:10:00 GMT[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:09:57 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:09:57 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:09:57 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:09:57 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 18:09:57 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:10:00 GMT
+10 四月 2012 18:09:57 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:09:57 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesResponse - Content-Length: 7
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:10:00 GMT
+10 四月 2012 18:09:57 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:09:57 DEBUG apache.http.wire - << "Bad URL"
+10 四月 2012 18:09:57 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1e152c5
+10 四月 2012 18:10:30 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:10:30 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 18:10:30 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:10:31 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.71:8080]
+10 四月 2012 18:10:31 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:10:31 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:10:31 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:10:31 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:10:31 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 18:10:31 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:10:31 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:10:31 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:10:31 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:10:31 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:10:34 GMT[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:10:31 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:10:31 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:10:31 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:10:31 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 18:10:31 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:10:34 GMT
+10 四月 2012 18:10:31 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:10:31 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:10:31 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:10:31 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:10:31 DEBUG client.cloudfiles.FilesResponse - Content-Length: 7
+10 四月 2012 18:10:31 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:10:34 GMT
+10 四月 2012 18:10:31 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:10:31 DEBUG apache.http.wire - << "Bad URL"
+10 四月 2012 18:10:31 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@6025e7
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:11:11 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.71:8080]
+10 四月 2012 18:11:11 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:11:11 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:11:11 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:11:11 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:11:11 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 18:11:11 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 18:11:11 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:11:11 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:11:11 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:11:11 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:11:14 GMT[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:11:11 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:11:11 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:11:11 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:11:11 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:11:11 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 18:11:11 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:11:14 GMT
+10 四月 2012 18:11:11 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:11:11 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesResponse - Content-Length: 7
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:11:14 GMT
+10 四月 2012 18:11:11 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:11:12 DEBUG apache.http.wire - << "Bad URL"
+10 四月 2012 18:11:12 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@6025e7
+10 四月 2012 18:11:39 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:11:39 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 18:11:39 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:12:00 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:12:00 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/v1.0
+10 四月 2012 18:12:00 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:14:32 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.52:8080]
+10 四月 2012 18:14:32 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.52:8080
+10 四月 2012 18:14:32 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:14:32 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:14:32 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:14:32 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /v1.0 HTTP/1.1
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "GET /v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "Host: 172.16.10.52:8080[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> GET /v1.0 HTTP/1.1
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> Host: 172.16.10.52:8080
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:14:32 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:14:32 DEBUG apache.http.wire - << "HTTP/1.1 412 Precondition Failed[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - << "Content-Length: 7[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:14:35 GMT[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:14:32 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:14:32 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:14:32 DEBUG apache.http.headers - << HTTP/1.1 412 Precondition Failed
+10 四月 2012 18:14:32 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:14:32 DEBUG apache.http.headers - << Content-Length: 7
+10 四月 2012 18:14:32 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:14:35 GMT
+10 四月 2012 18:14:32 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:14:32 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:17:26 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://wiki.cloud.centrin.com.cn]
+10 四月 2012 18:17:26 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to wiki.cloud.centrin.com.cn:80
+10 四月 2012 18:17:26 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:17:26 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:17:26 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:17:26 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "Host: wiki.cloud.centrin.com.cn[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> Host: wiki.cloud.centrin.com.cn
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:17:26 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "HTTP/1.1 403 Forbidden[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:17:29 GMT[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "Server: Apache/2.2.3 (CentOS)[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "Content-Length: 5043[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "Connection: close[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:17:26 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:17:26 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 403 Forbidden
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << HTTP/1.1 403 Forbidden
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:17:29 GMT
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << Server: Apache/2.2.3 (CentOS)
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << Content-Length: 5043
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << Connection: close
+10 四月 2012 18:17:26 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:17:41 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:17:41 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:17:41 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:17:41 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:17:41 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:17:41 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:17:41 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:17:44 GMT[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Content-Length: 7869[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:17:44 GMT[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=982B164CE815E70DD1C90055A52002A8:FG=1; expires=Tue, 10-Apr-42 10:17:44 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:17:41 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:17:41 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:17:44 GMT
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Content-Length: 7869
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:17:44 GMT
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=982B164CE815E70DD1C90055A52002A8:FG=1; expires=Tue, 10-Apr-42 10:17:44 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:17:41 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:17:41 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: 982B164CE815E70DD1C90055A52002A8:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:17:44 CST 2042]". 
+10 四月 2012 18:17:41 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:18:00 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:18:00 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:18:00 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:18:00 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:18:00 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:18:00 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:18:00 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:18:03 GMT[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Content-Length: 7893[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:18:03 GMT[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=27050EA148DD718BC0043BCD1AC4237D:FG=1; expires=Tue, 10-Apr-42 10:18:03 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:18:03 GMT
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Content-Length: 7893
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:18:03 GMT
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=27050EA148DD718BC0043BCD1AC4237D:FG=1; expires=Tue, 10-Apr-42 10:18:03 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:18:00 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:18:00 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: 27050EA148DD718BC0043BCD1AC4237D:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:18:03 CST 2042]". 
+10 四月 2012 18:18:00 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html;charset=gb2312"><title>[0xb0][0xd9][0xb6][0xc8][0xd2][0xbb][0xcf][0xc2][0xa3][0xac][0xc4][0xe3][0xbe][0xcd][0xd6][0xaa][0xb5][0xc0]      </title><style>html{overflow-y:auto}body{font:12px arial;text-align:center;background:#fff}body,p,form,ul,li{margin:0;padding:0;list-style:none}body,form,#fm{position:relative}td{text-align:left}img{border:0}a{color:#00c}a:active{color:#f60}#u{color:#999;padding:4px 10px 5px 0;text-align:right}#u a{margin:0 5px}#u .reg{margin:0}#m{width:680px;margin:0 auto;}#nv a,#nv b,.btn,#lk{font-size:14px}#fm{padding-left:90px;text-align:left}input{border:0;padding:0}#nv{height:19px;font-size:16px;margin:0 0 4px;text-align:left;text-indent:117px}.s_ipt_wr{width:418px;height:30px;display:inline-block;margin-right:5px;background:url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png) no-repeat -304px 0;border:1px solid #b6b6b6;border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;vertical-align:top}.s_ipt{width:405px;height:22px;font:16px/22px arial;margin:5px 0 0 7px;background:#fff;outline:none;-webkit-appearance:none}.s_btn{width:95px;height:32px;padding-top:2px\9;font-size:14px;background:#ddd url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png);cursor:pointer}.s_btn_h{background-position:-100px 0}.s_btn_wr{width:97px;height:34px;display:inline-block;background:url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png) no-repeat -202px 0;*position:relative;z-index:0;vertical-align:top}#lg img{vertical-align:top;margin-bottom:3px}#lk{margin:33px 0}#lk span{font:14px "[0xcb][0xce][0xcc][0xe5]"}#lm{height:60px}#lh{margin:16px 0 5px;word-spacing:3px}.tools{position:absolute;top:-4px;*top:10px;right:-13px;}#mHolder{width:62px;position:relative;z-index:296;display:none}#mCon{height:18px;line-height:18px;position:absolute;cursor:pointer;padding:0 18px 0 0;background:url(http://s1.bdstatic.com/r/www/img/bg-1.0.0.gif) no-repeat right -134px;background-position:right -136px\9}#mCon span{color:#00c;cursor:default;display:block}#mCon .hw{text-decoration:underline;cursor:pointer}#mMenu a{width:100%;height:100%;display:block;line-height:22px;text-indent:6px;tex"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "t-decoration:none;filter:none\9}#mMenu,#user ul{box-shadow:1px 1px 2px #ccc;-moz-box-shadow:1px 1px 2px #ccc;-webkit-box-shadow:1px 1px 2px #ccc;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color="#cccccc")\9;}#mMenu{width:56px;border:1px solid #9b9b9b;list-style:none;position:absolute;right:7px;top:28px;display:none;background:#fff}#mMenu a:hover{background:#ebebeb}#mMenu .ln{height:1px;background:#ebebeb;overflow:hidden;font-size:1px;line-height:1px;margin-top:-1px}#cp,#cp a{color:#77c}#seth{display:none;behavior:url(#default#homepage)}#setf{display:none}#sekj{margin-left:14px;}</style>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<script type="text/javascript">function h(obj){obj.style.behavior='url(#default#homepage)';var a = obj.setHomePage('http://www.baidu.com/');}</script></head>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<body><div id="u"><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_setting">[0xcb][0xd1][0xcb][0xf7][0xc9][0xe8][0xd6][0xc3]</a>|<a href="http://passport.baidu.com/?login&tpl=mn" name="tj_login">[0xb5][0xc7][0xc2][0xbc]</a><a href="https://passport.baidu.com/?reg&tpl=mn" name="tj_reg" class="reg">[0xd7][0xa2][0xb2][0xe1]</a></div>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<div id="m"><p id="lg"><img src="http://www.baidu.com/img/baidu_sylogo1.gif" width="270" height="129" usemap="#mp"><map name="mp"><area shape="rect" coords="40,25,230,95" href="http://hi.baidu.com/baidu/" target="_blank" title="[0xb5][0xe3][0xb4][0xcb][0xbd][0xf8][0xc8][0xeb] [0xb0][0xd9][0xb6][0xc8][0xb5][0xc4][0xbf][0xd5][0xbc][0xe4]" ></map></p><p id="nv"><a href="http://news.baidu.com">[0xd0][0xc2]&nbsp;[0xce][0xc5]</a>[0xa1][0xa1]<b>[0xcd][0xf8]&nbsp;[0xd2][0xb3]</b>[0xa1][0xa1]<a href="http://tieba.baidu.com">[0xcc][0xf9]&nbsp;[0xb0][0xc9]</a>[0xa1][0xa1]<a href="http://zhidao.baidu.com">[0xd6][0xaa]&nbsp;[0xb5][0xc0]</a>[0xa1][0xa1]<a href="http://mp3.baidu.com">MP3</a>[0xa1][0xa1]<a href="http://image.baidu.com">[0xcd][0xbc]&nbsp;[0xc6][0xac]</a>[0xa1][0xa1]<a href="http://video.baidu.com">[0xca][0xd3]&nbsp;[0xc6][0xb5]</a>[0xa1][0xa1]<a href="http://map.baidu.com">[0xb5][0xd8]&nbsp;[0xcd][0xbc]</a></p><div id="fm"><form name="f" action="/s"><span class="s_ipt_wr"><input type="text" name="wd" id="kw" maxlength="100" class="s_ipt"></span><input type="hidden" name="rsv_bp" value="0"><input type="hidden" name="rsv_spt" value="3"><span class="s_btn_wr"><input type="submit" value="[0xb0][0xd9][0xb6][0xc8][0xd2][0xbb][0xcf][0xc2]" id="su" class="s_btn" onmousedown="this.className='s_btn s_btn_h'" onmouseout="
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << ""this.className='s_btn'"></span></form><span class="tools"><span id="mHolder"><div id="mCon"><span>[0xca][0xe4][0xc8][0xeb][0xb7][0xa8]</span></div></span></span><ul id="mMenu"><li><a href="#" name="ime_hw">[0xca][0xd6][0xd0][0xb4]</a></li><li><a href="#" name="ime_py">[0xc6][0xb4][0xd2][0xf4]</a></li><li class="ln"></li><li><a href="#" name="ime_cl">[0xb9][0xd8][0xb1][0xd5]</a></li></ul></div>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<p id="lk"><a href="http://hi.baidu.com">[0xbf][0xd5][0xbc][0xe4]</a>[0xa1][0xa1]<a href="http://baike.baidu.com">[0xb0][0xd9][0xbf][0xc6]</a>[0xa1][0xa1]<a href="http://www.hao123.com">hao123</a><span> | <a href="/more/">[0xb8][0xfc][0xb6][0xe0]&gt;&gt;</a></span></p><p id="lm"></p><p><a id="seth" onClick="h(this)" href="http://utility.baidu.com/traf/click.php?id=215&url=http://www.baidu.com" onmousedown="return ns_c({'fm':'behs','tab':'homepage','pos':0})">[0xb0][0xd1][0xb0][0xd9][0xb6][0xc8][0xc9][0xe8][0xce][0xaa][0xd6][0xf7][0xd2][0xb3]</a><a id="setf" onClick="fa(this)" href="javascript:void(0)" onmousedown="return ns_c({'fm':'behs','tab':'favorites','pos':0})">[0xb0][0xd1][0xb0][0xd9][0xb6][0xc8][0xbc][0xd3][0xc8][0xeb][0xca][0xd5][0xb2][0xd8][0xbc][0xd0]</a></p>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<p id="lh"><a href="http://e.baidu.com/?refer=888">[0xbc][0xd3][0xc8][0xeb][0xb0][0xd9][0xb6][0xc8][0xcd][0xc6][0xb9][0xe3]</a> | <a href="http://top.baidu.com">[0xcb][0xd1][0xcb][0xf7][0xb7][0xe7][0xd4][0xc6][0xb0][0xf1]</a> | <a href="http://home.baidu.com">[0xb9][0xd8][0xd3][0xda][0xb0][0xd9][0xb6][0xc8]</a> | <a href="http://ir.baidu.com">About Baidu</a></p><p id="cp">&copy;2012 Baidu <a href="/duty/">[0xca][0xb9][0xd3][0xc3][0xb0][0xd9][0xb6][0xc8][0xc7][0xb0][0xb1][0xd8][0xb6][0xc1]</a> <a href="http://www.miibeian.gov.cn" target="_blank">[0xbe][0xa9]ICP[0xd6][0xa4]030173[0xba][0xc5]</a> <img src="http://gimg.baidu.com/img/gs.gif"></p></div></body>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<script>var bdUser = null;var w=window,d=document,n=navigator,k=d.f.wd,a=d.getElementById("nv").getElementsByTagName("a"),isIE=n.userAgent.indexOf("MSIE")!=-1&&!window.opera;for(var i=0;i<a.length;i++){a[i].onclick=function(){if(k.value.length>0){var o=this,h=o.href,q=encodeURIComponent(k.value);if(h.indexOf("q=")!=-1){o.href=h.replace(/q=[^&\x24]*/,"q="+q)}else{this.href+="?q="+q}}}};(function(){if(/q=([^&]+)/.test(location.search)){k.value=decodeURIComponent(RegExp["\x241"])}})();if(n.cookieEnabled&&!/sug?=0/.test(d.cookie)){d.write('<script src=http://s1.bdstatic.com/r/www/cache/sug/js/bdsug-1.1.js><\/script>')};function addEV(o, e, f){if(w.attachEvent){o.attachEvent("on" + e, f);}else if(w.addEventListener){ o.addEventListener(e, f, false);}}function G(id){"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "return d.getElementById(id);}function ns_c(q){var p = encodeURIComponent(window.document.location.href), sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();for (v in q) {sV = q[v];sQ += v + "=" + sV + "&";} mu= "&mu=" + p ;img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=www&" + sQ + "path="+p+"&t="+new Date().getTime();return true;}if(/\bbdime=[12]/.test(d.cookie)){document.write('<script src=http://s1.bdstatic.com/r/www/cache/ime/js/openime-1.0.0.js><\/script>');}(function(){var user = G("user"), userMenu = G("userMenu");if(user && userMenu){user.onmouseover = function(){userMenu.style.display = "block"};user.onmouseout = function(){userMenu.style.display = "none"};}})();(function(){var u = G("u").getElementsByTagName("a"), nv = G("nv").getElementsByTagName("a"), lk = G("lk").getElementsByTagName("a"), un = "";var tj_nv = ["news","tieba","zhidao","mp3","img","video","map"];var tj_lk = ["hi","baike","hao123","more"];un = bdUser == null ? "" : bdUser;function _addTJ(obj){addEV(obj, "mousedown", function(e){var e = e || window.event;var target = e.target || e.srcElement;ns_c({'fm':'behs','tab':target.name||'tj_user','un':encodeURIComponent(un)});});}for(var i = 0; i < u.length; i++){_addTJ(u[i]);}for(var i = 0; i < nv.length; i++){nv[i].name = 'tj_' + tj_nv[i];_addTJ(nv[i]);}for(var i = 0; i < lk.length; i++){lk[i].name = 'tj_' + tj_lk[i];_addTJ(lk[i]);}})();addEV(w,"load",function(){k.focus()});w.onunload=function(){};</script>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "</html>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/hps/js/hps-1.4.js"></script>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "<script>[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "(function(){[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "[0x9]return ns_c({'fm':'behs','tab':'refer','refer':document.referrer});[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "})();[\r][\n]"
+10 四月 2012 18:18:00 DEBUG apache.http.wire - << "</script><!--9768b0527288dae1-->"
+10 四月 2012 18:18:00 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@d08633
+10 四月 2012 18:19:05 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:19:05 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:19:05 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:19:05 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:19:05 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:19:05 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:19:05 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:19:08 GMT[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Content-Length: 7869[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:19:08 GMT[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=BB19EB9B4B564C4BDA9C0C977875F9F5:FG=1; expires=Tue, 10-Apr-42 10:19:08 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:19:05 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:19:05 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:19:08 GMT
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Content-Length: 7869
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:19:08 GMT
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=BB19EB9B4B564C4BDA9C0C977875F9F5:FG=1; expires=Tue, 10-Apr-42 10:19:08 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:19:05 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:19:05 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: BB19EB9B4B564C4BDA9C0C977875F9F5:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:19:08 CST 2042]". 
+10 四月 2012 18:19:05 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:19:58 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:19:58 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:19:58 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:19:58 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:19:58 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:19:58 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:19:58 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:20:00 GMT[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Content-Length: 7869[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:20:00 GMT[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=848326A29DB8FF7D5BFE559924BDF785:FG=1; expires=Tue, 10-Apr-42 10:20:00 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:19:58 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:19:58 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:20:00 GMT
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Content-Length: 7869
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:20:00 GMT
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=848326A29DB8FF7D5BFE559924BDF785:FG=1; expires=Tue, 10-Apr-42 10:20:00 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:19:58 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:19:58 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: 848326A29DB8FF7D5BFE559924BDF785:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:20:00 CST 2042]". 
+10 四月 2012 18:19:58 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:21:21 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:21:21 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:21:21 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:21:21 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:21:21 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:21:21 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:21:21 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:21:24 GMT[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Content-Length: 7869[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:21:24 GMT[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=204904B77577EEFF7AC894E95B6959D3:FG=1; expires=Tue, 10-Apr-42 10:21:24 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:21:22 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:21:22 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:21:24 GMT
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Content-Length: 7869
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:21:24 GMT
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=204904B77577EEFF7AC894E95B6959D3:FG=1; expires=Tue, 10-Apr-42 10:21:24 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:21:22 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:21:22 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: 204904B77577EEFF7AC894E95B6959D3:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:21:24 CST 2042]". 
+10 四月 2012 18:21:22 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:22:12 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:22:12 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:22:12 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:22:12 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:22:12 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:22:12 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:22:12 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:22:14 GMT[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Content-Length: 7869[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:22:14 GMT[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=9FDA472144DD5903C4C3CE45EC5800EE:FG=1; expires=Tue, 10-Apr-42 10:22:14 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:22:14 GMT
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Content-Length: 7869
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:22:14 GMT
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=9FDA472144DD5903C4C3CE45EC5800EE:FG=1; expires=Tue, 10-Apr-42 10:22:14 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:22:12 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:22:12 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: 9FDA472144DD5903C4C3CE45EC5800EE:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:22:14 CST 2042]". 
+10 四月 2012 18:22:12 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html;charset=gb2312"><title>[0xb0][0xd9][0xb6][0xc8][0xd2][0xbb][0xcf][0xc2][0xa3][0xac][0xc4][0xe3][0xbe][0xcd][0xd6][0xaa][0xb5][0xc0]      </title><style>html{overflow-y:auto}body{font:12px arial;text-align:center;background:#fff}body,p,form,ul,li{margin:0;padding:0;list-style:none}body,form,#fm{position:relative}td{text-align:left}img{border:0}a{color:#00c}a:active{color:#f60}#u{color:#999;padding:4px 10px 5px 0;text-align:right}#u a{margin:0 5px}#u .reg{margin:0}#m{width:680px;margin:0 auto;}#nv a,#nv b,.btn,#lk{font-size:14px}#fm{padding-left:90px;text-align:left}input{border:0;padding:0}#nv{height:19px;font-size:16px;margin:0 0 4px;text-align:left;text-indent:117px}.s_ipt_wr{width:418px;height:30px;display:inline-block;margin-right:5px;background:url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png) no-repeat -304px 0;border:1px solid #b6b6b6;border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;vertical-align:top}.s_ipt{width:405px;height:22px;font:16px/22px arial;margin:5px 0 0 7px;background:#fff;outline:none;-webkit-appearance:none}.s_btn{width:95px;height:32px;padding-top:2px\9;font-size:14px;background:#ddd url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png);cursor:pointer}.s_btn_h{background-position:-100px 0}.s_btn_wr{width:97px;height:34px;display:inline-block;background:url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png) no-repeat -202px 0;*position:relative;z-index:0;vertical-align:top}#lg img{vertical-align:top;margin-bottom:3px}#lk{margin:33px 0}#lk span{font:14px "[0xcb][0xce][0xcc][0xe5]"}#lm{height:60px}#lh{margin:16px 0 5px;word-spacing:3px}.tools{position:absolute;top:-4px;*top:10px;right:-13px;}#mHolder{width:62px;position:relative;z-index:296;display:none}#mCon{height:18px;line-height:18px;position:absolute;cursor:pointer;padding:0 18px 0 0;background:url(http://s1.bdstatic.com/r/www/img/bg-1.0.0.gif) no-repeat right -134px;background-position:right -136px\9}#mCon span{color:#00c;cursor:default;display:block}#mCon .hw{text-decoration:underline;cursor:pointer}#mMenu a{width:100%;height:100%;display:block;line-height:22px;text-indent:6px;text-decoration:none;filter:none\9}#mMenu,#user ul{box-shadow:1px 1px 2px #ccc;-moz-box-shadow:1px 1px 2px #ccc;-webkit-box-shadow:1px 1px 2px #ccc;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color="#cccccc")\9;}#mMenu{width:56px;border:1px solid #9b9b9b;list-style:none;position:absolute;right:7px;top:28px;display:none;background:#fff}#mMenu a:hover{background:#ebebeb}#mMenu .ln{height:1px;background:#ebebeb;overflow:hidden;font-size:1px;line-height:1px;margin-top:-1px}#cp,#cp a{color:#77c}#seth{display:none;behavior:url(#default#homepage)}#setf{display:none}</style>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<script type="text/javascript">function h(obj){obj.style.behavior='url(#default#homepage)';var a = obj.setHomePage('http://www.baidu.com/');}</script></head>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<body><div id="u"><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_setting">[0xcb][0xd1][0xcb][0xf7][0xc9][0xe8][0xd6][0xc3]</a>|<a href="http://passport.baidu.com/?login&tpl=mn" name="tj_login">[0xb5][0xc7][0xc2][0xbc]</a><a href="https://passport.baidu.com/?reg&tpl=mn" name="tj_reg" class="reg">[0xd7][0xa2][0xb2][0xe1]</a></div>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<div id="m"><p id="lg"><img src="http://www.baidu.com/img/baidu_sylogo1.gif" width="270" height="129" usemap="#mp"><map name="mp"><area shape="rect" coords="40,25,230,95" href="http://hi.baidu.com/baidu/" target="_blank" title="[0xb5][0xe3][0xb4][0xcb][0xbd][0xf8][0xc8][0xeb] [0xb0][0xd9][0xb6][0xc8][0xb5][0xc4][0xbf][0xd5][0xbc][0xe4]" ></map></p><p id="nv"><a href="http://news.baidu.com">[0xd0][0xc2]&nbsp;[0xce][0xc5]</a>[0xa1][0xa1]<b>[0xcd][0xf8]&nbsp;[0xd2][0xb3]</b>[0xa1][0xa1]<a href="http://tieba.baidu.com">[0xcc][0xf9]&nbsp;[0xb0][0xc9]</a>[0xa1][0xa1]<a href="http://zhidao.baidu.com">[0xd6][0xaa]&nbsp;[0xb5][0xc0]</a>[0xa1][0xa1]<a href="http://mp3.baidu.com">MP3</a>[0xa1][0xa1]<a href="http://image.baidu.com">[0xcd][0xbc]&nbsp;[0xc6][0xac]</a>[0xa1][0xa1]<a href="http://video.baidu.com">[0xca][0xd3]&nbsp;[0xc6][0xb5]</a>[0xa1][0xa1]<a href="http://map.baidu.com">[0xb5][0xd8]&nbsp;[0xcd][0xbc]</a></p><div id="fm"><form name="f" action="/s"><span class="s_ipt_wr"><input type="text" name="wd" id="kw" maxlength="100" class="s_ipt"></span><input type="hidden" name="rsv_bp" value="0"><input type="hidden" name="rsv_spt" value="3"><span class="s_btn_wr"><input type="submit" value="[0xb0][0xd9][0xb6][0xc8][0xd2][0xbb][0xcf][0xc2]" id="su" class="s_btn" onmousedown="this.className='s_btn s_btn_h'" onmouseout="this.className='s_btn'""
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "></span></form><span class="tools"><span id="mHolder"><div id="mCon"><span>[0xca][0xe4][0xc8][0xeb][0xb7][0xa8]</span></div></span></span><ul id="mMenu"><li><a href="#" name="ime_hw">[0xca][0xd6][0xd0][0xb4]</a></li><li><a href="#" name="ime_py">[0xc6][0xb4][0xd2][0xf4]</a></li><li class="ln"></li><li><a href="#" name="ime_cl">[0xb9][0xd8][0xb1][0xd5]</a></li></ul></div>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<p id="lk"><a href="http://hi.baidu.com">[0xbf][0xd5][0xbc][0xe4]</a>[0xa1][0xa1]<a href="http://baike.baidu.com">[0xb0][0xd9][0xbf][0xc6]</a>[0xa1][0xa1]<a href="http://www.hao123.com">hao123</a><span> | <a href="/more/">[0xb8][0xfc][0xb6][0xe0]&gt;&gt;</a></span></p><p id="lm"></p><p><a id="seth" onClick="h(this)" href="http://utility.baidu.com/traf/click.php?id=215&url=http://www.baidu.com" onmousedown="return ns_c({'fm':'behs','tab':'homepage','pos':0})">[0xb0][0xd1][0xb0][0xd9][0xb6][0xc8][0xc9][0xe8][0xce][0xaa][0xd6][0xf7][0xd2][0xb3]</a><a id="setf" onClick="fa(this)" href="javascript:void(0)" onmousedown="return ns_c({'fm':'behs','tab':'favorites','pos':0})">[0xb0][0xd1][0xb0][0xd9][0xb6][0xc8][0xbc][0xd3][0xc8][0xeb][0xca][0xd5][0xb2][0xd8][0xbc][0xd0]</a></p>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<p id="lh"><a href="http://e.baidu.com/?refer=888">[0xbc][0xd3][0xc8][0xeb][0xb0][0xd9][0xb6][0xc8][0xcd][0xc6][0xb9][0xe3]</a> | <a href="http://top.baidu.com">[0xcb][0xd1][0xcb][0xf7][0xb7][0xe7][0xd4][0xc6][0xb0][0xf1]</a> | <a href="http://home.baidu.com">[0xb9][0xd8][0xd3][0xda][0xb0][0xd9][0xb6][0xc8]</a> | <a href="http://ir.baidu.com">About Baidu</a></p><p id="cp">&copy;2012 Baidu <a href="/duty/">[0xca][0xb9][0xd3][0xc3][0xb0][0xd9][0xb6][0xc8][0xc7][0xb0][0xb1][0xd8][0xb6][0xc1]</a> <a href="http://www.miibeian.gov.cn" target="_blank">[0xbe][0xa9]ICP[0xd6][0xa4]030173[0xba][0xc5]</a> <img src="http://gimg.baidu.com/img/gs.gif"></p></div></body>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<script>var bdUser = null;var w=window,d=document,n=navigator,k=d.f.wd,a=d.getElementById("nv").getElementsByTagName("a"),isIE=n.userAgent.indexOf("MSIE")!=-1&&!window.opera;for(var i=0;i<a.length;i++){a[i].onclick=function(){if(k.value.length>0){var o=this,h=o.href,q=encodeURIComponent(k.value);if(h.indexOf("q=")!=-1){o.href=h.replace(/q=[^&\x24]*/,"q="+q)}else{this.href+="?q="+q}}}};(function(){if(/q=([^&]+)/.test(location.search)){k.value=decodeURIComponent(RegExp["\x241"])}})();if(n.cookieEnabled&&!/sug?=0/.test(d.cookie)){d.write('<script src=http://s1.bdstatic.com/r/www/cache/sug/js/bdsug-1.1.js><\/script>')};function addEV(o, e, f){if(w.attachEvent){o.attachEvent("on" + e, f);}else if(w.addEventListener){ o.addEventListener(e, f, false);}}function G(id){return d.getElementById(id);}function ns_c(q){var p = encodeURIComponent(window.document.location.href), sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();for (v in q) {sV = q[v];sQ += v + "=" + sV + "&";} mu= "&mu=" + p ;img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=www&" + sQ + "path="+p+"&t="+new Date().getTime();return true;}if(/\bbdime=[12]/.test(d.cookie)){document.write('<script src=http://s1.bdstatic.com/r/www/cache/ime/js/openime-1.0.0.js><\/script>');}(function(){var user = G("user"), userMenu = G("userMenu");if(user && userMenu){user.onmouseover = function(){userMenu.style.display = "block"};user.onmouseout = function(){userMenu.style.display = "none"};}})();(function(){var u = G("u").getElementsByTagName("a"), nv = G("nv").getElementsByTagName("a"), lk = G("lk").getElementsByTagName("a"), un = "";var tj_nv = ["news","tieba","zhidao","mp3","img","video","map"];var tj_lk = ["hi","baike","hao123","more"];un = bdUser == null ? "" : bdUser;function _addTJ(obj){addEV(obj, "mousedown", function(e){var e = e || window.event;var target = e.target || e.srcElement;ns_c({'fm':'behs','tab':target.name||'tj_user','un':encodeURIComponent(un)});});}for(var i = 0; i < u.length; i++){_addTJ(u[i]);}for(var i = 0; i < nv.length; i++){nv[i].name = 'tj_' + tj_nv[i];_addTJ(nv[i]);}for(var i = 0; i < lk.length; i++){lk[i].name = 'tj_' + tj_lk[i];_addTJ(lk[i]);}})();addEV(w,"load",function(){k.focus()});w.onunload=function(){};</script>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "</html>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/hps/js/hps-1.4.js"></script>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "<script>[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "(function(){[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "[0x9]return ns_c({'fm':'behs','tab':'refer','refer':document.referrer});[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "})();[\r][\n]"
+10 四月 2012 18:22:12 DEBUG apache.http.wire - << "</script><!--08a4bb274b3e3a91-->"
+10 四月 2012 18:22:12 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1e152c5
+10 四月 2012 18:22:40 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://www.baidu.com]
+10 四月 2012 18:22:40 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to www.baidu.com:80
+10 四月 2012 18:22:40 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:22:40 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:22:40 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:22:40 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "Host: www.baidu.com[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> Host: www.baidu.com
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:22:40 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:22:43 GMT[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Server: BWS/1.0[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Content-Length: 7893[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Content-Type: text/html;charset=gb2312[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Cache-Control: private[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Expires: Tue, 10 Apr 2012 10:22:43 GMT[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Set-Cookie: BAIDUID=7B5328BB47187DC84A9AB4F535EBF280:FG=1; expires=Tue, 10-Apr-42 10:22:43 GMT; path=/; domain=.baidu.com[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "P3P: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:22:43 GMT
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Server: BWS/1.0
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Content-Length: 7893
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Content-Type: text/html;charset=gb2312
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Cache-Control: private
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Expires: Tue, 10 Apr 2012 10:22:43 GMT
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Set-Cookie: BAIDUID=7B5328BB47187DC84A9AB4F535EBF280:FG=1; expires=Tue, 10-Apr-42 10:22:43 GMT; path=/; domain=.baidu.com
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << P3P: CP=" OTI DSP COR IVA OUR IND COM "
+10 四月 2012 18:22:40 DEBUG apache.http.headers - << Connection: Keep-Alive
+10 四月 2012 18:22:40 DEBUG client.protocol.ResponseProcessCookies - Cookie accepted: "[version: 0][name: BAIDUID][value: 7B5328BB47187DC84A9AB4F535EBF280:FG=1][domain: .baidu.com][path: /][expiry: Thu Apr 10 18:22:43 CST 2042]". 
+10 四月 2012 18:22:40 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html;charset=gb2312"><title>[0xb0][0xd9][0xb6][0xc8][0xd2][0xbb][0xcf][0xc2][0xa3][0xac][0xc4][0xe3][0xbe][0xcd][0xd6][0xaa][0xb5][0xc0]      </title><style>html{overflow-y:auto}body{font:12px arial;text-align:center;background:#fff}body,p,form,ul,li{margin:0;padding:0;list-style:none}body,form,#fm{position:relative}td{text-align:left}img{border:0}a{color:#00c}a:active{color:#f60}#u{color:#999;padding:4px 10px 5px 0;text-align:right}#u a{margin:0 5px}#u .reg{margin:0}#m{width:680px;margin:0 auto;}#nv a,#nv b,.btn,#lk{font-size:14px}#fm{padding-left:90px;text-align:left}input{border:0;padding:0}#nv{height:19px;font-size:16px;margin:0 0 4px;text-align:left;text-indent:117px}.s_ipt_wr{width:418px;height:30px;display:inline-block;margin-right:5px;background:url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png) no-repeat -304px 0;border:1px solid #b6b6b6;border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;vertical-align:top}.s_ipt{width:405px;height:22px;font:16px/22px arial;margin:5px 0 0 7px;background:#fff;outline:none;-webkit-appearance:none}.s_btn{width:95px;height:32px;padding-top:2px\9;font-size:14px;background:#ddd url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png);cursor:pointer}.s_btn_h{background-position:-100px 0}.s_btn_wr{width:97px;height:34px;display:inline-block;background:url(http://s1.bdstatic.com/r/www/img/i-1.0.0.png) no-repeat -202px 0;*position:relative;z-index:0;vertical-align:top}#lg img{vertical-align:top;margin-bottom:3px}#lk{margin:33px 0}#lk span{font:14px "[0xcb][0xce][0xcc][0xe5]"}#lm{height:60px}#lh{margin:16px 0 5px;word-spacing:3px}.tools{position:absolute;top:-4px;*top:10px;right:-13px;}#mHolder{width:62px;position:relative;z-index:296;display:none}#mCon{height:18px;line-height:18px;position:absolute;cursor:pointer;padding:0 18px 0 0;background:url(http://s1.bdstatic.com/r/www/img/bg-1.0.0.gif) no-repeat right -134px;background-position:right -136px\9}#mCon span{color:#00c;cursor:default;display:block}#mCon .hw{text-decoration:underline;cursor:pointer}#mMenu a{width:100%;height:100%;display:block;line-height:22px;text-indent:6px;text-decoration:none;filter:none\9}#mMenu,#user ul{box-shadow:1px 1px 2px #ccc;-moz-box-shadow:1px 1px 2px #ccc;-webkit-box-shadow:1px 1px 2px #ccc;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color="#cccccc")\9;}#mMenu{width:56px;border:1px solid #9b9b9b;list-style:none;position:absolute;right:7px;top:28px;display:none;background:#fff}#mMenu a:hover{background:#ebebeb}#mMenu .ln{height:1px;background:#ebebeb;overflow:hidden;font-size:1px;line-height:1px;margin-top:-1px}#cp,#cp a{color:#77c}#seth{display:none;behavior:url(#default#homepage)}#setf{display:none}#sekj{margin-left:14px;}</style>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<script type="text/javascript">function h(obj){obj.style.behavior='url(#default#homepage)';var a = obj.setHomePage('http://www.baidu.com/');}</script></head>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<body><div id="u"><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_setting">[0xcb][0xd1][0xcb][0xf7][0xc9][0xe8][0xd6][0xc3]</a>|<a href="http://passport.baidu.com/?login&tpl=mn" name="tj_login">[0xb5][0xc7][0xc2][0xbc]</a><a href="https://passport.baidu.com/?reg&tpl=mn" name="tj_reg" class="reg">[0xd7][0xa2][0xb2][0xe1]</a></div>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<div id="m"><p id="lg"><img src="http://www.baidu.com/img/baidu_sylogo1.gif" width="270" height="129" usemap="#mp"><map name="mp"><area shape="rect" coords="40,25,230,95" href="http://hi.baidu.com/baidu/" target="_blank" title="[0xb5][0xe3][0xb4][0xcb][0xbd][0xf8][0xc8][0xeb] [0xb0][0xd9][0xb6][0xc8][0xb5][0xc4][0xbf][0xd5][0xbc][0xe4]" ></map></p><p id="nv"><a href="http://news.baidu.com">[0xd0][0xc2]&nbsp;[0xce][0xc5]</a>[0xa1][0xa1]<b>[0xcd][0xf8]&nbsp;[0xd2][0xb3]</b>[0xa1][0xa1]<a href="http://tieba.baidu.com">[0xcc][0xf9]&nbsp;[0xb0][0xc9]</a>[0xa1][0xa1]<a href="http://zhidao.baidu.com">[0xd6][0xaa]&nbsp;[0xb5][0xc0]</a>[0xa1][0xa1]<a href="http://mp3.baidu.com">MP3</a>[0xa1][0xa1]<a href="http://image.baidu.com">[0xcd][0xbc]&nbsp;[0xc6][0xac]</a>[0xa1][0xa1]<a href="http://video.baidu.com">[0xca][0xd3]&nbsp;[0xc6][0xb5]</a>[0xa1][0xa1]<a href="http://map.baidu.com">[0xb5][0xd8]&nbsp;[0xcd][0xbc]</a></p><div id="fm"><form name="f" action="/s"><span class="s_ipt_wr"><input type="text" name="wd" id="kw" maxlength="100" class="s_ipt"></span><input type="hidden" name="rsv_bp" value="0"><input type="hidden" name="rsv_spt" value="3"><span class="s_btn_wr"><input type="submit" value="[0xb0][0xd9][0xb6][0xc8][0xd2][0xbb][0xcf][0xc2]" id="su" class="s_btn" onmousedown="this.className='s_btn s_btn_h'" onmouseout="
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << ""this.className='s_btn'"></span></form><span class="tools"><span id="mHolder"><div id="mCon"><span>[0xca][0xe4][0xc8][0xeb][0xb7][0xa8]</span></div></span></span><ul id="mMenu"><li><a href="#" name="ime_hw">[0xca][0xd6][0xd0][0xb4]</a></li><li><a href="#" name="ime_py">[0xc6][0xb4][0xd2][0xf4]</a></li><li class="ln"></li><li><a href="#" name="ime_cl">[0xb9][0xd8][0xb1][0xd5]</a></li></ul></div>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<p id="lk"><a href="http://hi.baidu.com">[0xbf][0xd5][0xbc][0xe4]</a>[0xa1][0xa1]<a href="http://baike.baidu.com">[0xb0][0xd9][0xbf][0xc6]</a>[0xa1][0xa1]<a href="http://www.hao123.com">hao123</a><span> | <a href="/more/">[0xb8][0xfc][0xb6][0xe0]&gt;&gt;</a></span></p><p id="lm"></p><p><a id="seth" onClick="h(this)" href="http://utility.baidu.com/traf/click.php?id=215&url=http://www.baidu.com" onmousedown="return ns_c({'fm':'behs','tab':'homepage','pos':0})">[0xb0][0xd1][0xb0][0xd9][0xb6][0xc8][0xc9][0xe8][0xce][0xaa][0xd6][0xf7][0xd2][0xb3]</a><a id="setf" onClick="fa(this)" href="javascript:void(0)" onmousedown="return ns_c({'fm':'behs','tab':'favorites','pos':0})">[0xb0][0xd1][0xb0][0xd9][0xb6][0xc8][0xbc][0xd3][0xc8][0xeb][0xca][0xd5][0xb2][0xd8][0xbc][0xd0]</a></p>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<p id="lh"><a href="http://e.baidu.com/?refer=888">[0xbc][0xd3][0xc8][0xeb][0xb0][0xd9][0xb6][0xc8][0xcd][0xc6][0xb9][0xe3]</a> | <a href="http://top.baidu.com">[0xcb][0xd1][0xcb][0xf7][0xb7][0xe7][0xd4][0xc6][0xb0][0xf1]</a> | <a href="http://home.baidu.com">[0xb9][0xd8][0xd3][0xda][0xb0][0xd9][0xb6][0xc8]</a> | <a href="http://ir.baidu.com">About Baidu</a></p><p id="cp">&copy;2012 Baidu <a href="/duty/">[0xca][0xb9][0xd3][0xc3][0xb0][0xd9][0xb6][0xc8][0xc7][0xb0][0xb1][0xd8][0xb6][0xc1]</a> <a href="http://www.miibeian.gov.cn" target="_blank">[0xbe][0xa9]ICP[0xd6][0xa4]030173[0xba][0xc5]</a> <img src="http://gimg.baidu.com/img/gs.gif"></p></div></body>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<script>var bdUser = null;var w=window,d=document,n=navigator,k=d.f.wd,a=d.getElementById("nv").getElementsByTagName("a"),isIE=n.userAgent.indexOf("MSIE")!=-1&&!window.opera;for(var i=0;i<a.length;i++){a[i].onclick=function(){if(k.value.length>0){var o=this,h=o.href,q=encodeURIComponent(k.value);if(h.indexOf("q=")!=-1){o.href=h.replace(/q=[^&\x24]*/,"q="+q)}else{this.href+="?q="+q}}}};(function(){if(/q=([^&]+)/.test(location.search)){k.value=decodeURIComponent(RegExp["\x241"])}})();if(n.cookieEnabled&&!/sug?=0/.test(d.cookie)){d.write('<script src=http://s1.bdstatic.com/r/www/cache/sug/js/bdsug-1.1.js><\/script>')};function addEV(o, e, f){if(w.attachEvent){o.attachEvent("on" + e, f);}else if(w.addEventListener){ o.addEventListener(e, f, false);}}function G(id){return d.getElementById(id);}function ns_c(q){var p = encodeURIComponent(window.document.location.href), sQ = '', sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();for (v in q) {sV = q[v];sQ += v + "=" + sV + "&";} mu= "&mu=" + p ;img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=www&" + sQ + "path="+p+"&t="+new Date().getTime();return true;}if(/\bbdime=[12]/.test(d.cookie)){document.write('<script src=http://s1.bdstatic.com/r/www/cache/ime/js/openime-1.0.0.js><\/script>');}(function(){var user = G("user"), userMenu = G("userMenu");if(user && userMenu){user.onmouseover = function(){userMenu.style.display = "block"};user.onmouseout = function(){userMenu.style.display = "none"};}})();(function(){var u = G("u").getElementsByTagName("a"), nv = G("nv").getElementsByTagName("a"), lk = G("lk").getElementsByTagName("a"), un = "";var tj_nv = ["news","tieba","zhidao","mp3","img","video","map"];var tj_lk = ["hi","baike","hao123","more"];un = bdUser == null ? "" : bdUser;function _addTJ(obj){addEV(obj, "mousedown", function(e){var e = e || window.event;var target = e.target || e.srcElement;ns_c({'fm':'behs','tab':target.name||'tj_user','un':encodeURIComponent(un)});});}for(var i = 0; i < u.length; i++){_addTJ(u[i]);}for(var i = 0; i < nv.length; i++){nv[i].name = 'tj_' + tj_nv[i];_addTJ(nv[i]);}for(var i = 0; i < lk.length; i++){lk[i].name = 'tj_' + tj_lk[i];_addTJ(lk[i]);}})();addEV(w,"load",function(){k.focus()});w.onunload=function(){};</script>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "</html>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<script type="text/javascript" src="http://s1.bdstatic.com/r/www/cache/hps/js/hps-1.4.js"></script>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "<script>[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "(function(){[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "[0x9]return ns_c({'fm':'behs','tab':'refer','refer':document.referrer});[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "})();[\r][\n]"
+10 四月 2012 18:22:40 DEBUG apache.http.wire - << "</script><!--9768b0527288dae1-->"
+10 四月 2012 18:22:40 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1e152c5
+10 四月 2012 18:24:00 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.71:8080]
+10 四月 2012 18:24:00 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:24:00 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:24:00 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:24:00 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:24:00 DEBUG impl.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "GET / HTTP/1.1[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> GET / HTTP/1.1
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:24:00 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "HTTP/1.1 404 Not Found[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "Content-Length: 52[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:24:03 GMT[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:24:00 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+10 四月 2012 18:24:00 DEBUG apache.http.headers - << HTTP/1.1 404 Not Found
+10 四月 2012 18:24:00 DEBUG apache.http.headers - << Content-Length: 52
+10 四月 2012 18:24:00 DEBUG apache.http.headers - << Content-Type: text/plain; charset=UTF-8
+10 四月 2012 18:24:00 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:24:03 GMT
+10 四月 2012 18:24:00 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:24:00 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "404 Not Found[\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "[\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "The resource could not be found.[\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "[\n]"
+10 四月 2012 18:24:00 DEBUG apache.http.wire - << "   "
+10 四月 2012 18:24:00 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1551f60
+10 四月 2012 18:25:06 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{}->http://172.16.10.71:8080]
+10 四月 2012 18:25:06 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:25:06 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:25:06 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:25:06 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:25:06 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:25:06 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:25:09 GMT[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:25:06 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:25:09 GMT
+10 四月 2012 18:25:06 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:25:06 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:25:06 DEBUG apache.http.wire - << "{"storage": {"default": "local", "local": "https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a"}}"
+10 四月 2012 18:25:06 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@e0b6f5
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/auth/v1.0
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://172.16.10.71:8080], timeout = 0
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://172.16.10.71:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{}->http://172.16.10.71:8080]]
+10 四月 2012 18:26:43 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:26:43 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:26:43 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient$1 - Attempt 1 to execute request
+10 四月 2012 18:26:43 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:26:43 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:26:43 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:26:43 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:26:43 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:26:43 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:26:46 GMT[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:26:43 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:26:43 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:26:46 GMT
+10 四月 2012 18:26:43 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient$1 - Connection can be kept alive indefinitely
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 200 OK
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - Content-Length: 116
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:26:46 GMT
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - storageURL: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - authToken: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - cdnManagementURL:null
+10 四月 2012 18:26:43 DEBUG client.cloudfiles.FilesClient - ConnectionManager:org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager@86fe26
+10 四月 2012 18:26:43 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:26:43 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:31:19 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:31:19 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/auth/v1.0
+10 四月 2012 18:31:19 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/auth/v1.0
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://172.16.10.71:8080], timeout = 0
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://172.16.10.71:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{}->http://172.16.10.71:8080]]
+10 四月 2012 18:31:36 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:31:36 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:31:36 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient$1 - Attempt 1 to execute request
+10 四月 2012 18:31:36 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:31:36 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:31:36 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:31:36 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:31:36 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:31:36 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:31:39 GMT[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:31:36 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:31:36 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:31:39 GMT
+10 四月 2012 18:31:36 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient$1 - Connection can be kept alive indefinitely
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 200 OK
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - Content-Length: 116
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:31:39 GMT
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - storageURL: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - authToken: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - cdnManagementURL:null
+10 四月 2012 18:31:36 DEBUG client.cloudfiles.FilesClient - ConnectionManager:org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager@a352a5
+10 四月 2012 18:31:36 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:31:36 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:31:37 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:31:37 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:31:37 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:31:37 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:31:37 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:31:37 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: http://172.16.10.71:8080/auth/v1.0
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{}->http://172.16.10.71:8080], timeout = 0
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{}->http://172.16.10.71:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{}->http://172.16.10.71:8080]]
+10 四月 2012 18:33:09 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.71:8080
+10 四月 2012 18:33:09 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:33:09 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient$1 - Attempt 1 to execute request
+10 四月 2012 18:33:09 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:33:09 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - >> "Host: 172.16.10.71:8080[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:33:09 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:33:09 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:33:09 DEBUG apache.http.headers - >> Host: 172.16.10.71:8080
+10 四月 2012 18:33:09 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:33:12 GMT[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:33:09 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:33:09 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:33:12 GMT
+10 四月 2012 18:33:09 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient$1 - Connection can be kept alive indefinitely
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 200 OK
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - Content-Length: 116
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:33:12 GMT
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - storageURL: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - authToken: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - cdnManagementURL:null
+10 四月 2012 18:33:09 DEBUG client.cloudfiles.FilesClient - ConnectionManager:org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager@16f70a4
+10 四月 2012 18:33:09 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{}->http://172.16.10.71:8080]][null]
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:33:09 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:33:10 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:33:10 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:33:10 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:33:10 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:33:10 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:33:10 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:34:25 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:34:25 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:34:25 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:34:26 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:34:26 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:34:26 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:34:26 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+
+
+
+
+
+
+
+
+
+
+
+
+10 四月 2012 18:34:55 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:34:55 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:34:55 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:34:55 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:34:55 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:34:55 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:34:55 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:34:55 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:34:56 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:34:56 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:34:56 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:34:56 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:34:56 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:34:56 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+
+
+
+10 四月 2012 18:38:51 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:38:51 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:38:51 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:38:51 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:38:51 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:38:51 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:38:51 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:38:51 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:38:52 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:38:52 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:38:52 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:38:52 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:38:52 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:38:52 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:39:26 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:39:26 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:39:26 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:39:26 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:39:26 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:39:26 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:39:26 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:39:26 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:39:27 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:39:27 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:39:27 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:39:27 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:39:27 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:39:27 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:39:59 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:39:59 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:39:59 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:39:59 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:39:59 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:39:59 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:39:59 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:40:15 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:40:15 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:40:15 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ThreadSafeClientConnManager - Get connection: HttpRoute[{s}->https://172.16.10.70:8080], timeout = 0
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ConnPoolByRoute - [HttpRoute[{s}->https://172.16.10.70:8080]] total kept alive: 0, total issued: 0, total allocated: 0 out of 20
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ConnPoolByRoute - No free connections [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ConnPoolByRoute - Available capacity: 2 out of 2 [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ConnPoolByRoute - Creating new connection [HttpRoute[{s}->https://172.16.10.70:8080]]
+10 四月 2012 18:40:16 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:40:16 DEBUG impl.conn.DefaultClientConnection - Connection closed
+10 四月 2012 18:40:16 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ThreadSafeClientConnManager - Released connection is not reusable.
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ConnPoolByRoute - Releasing connection [HttpRoute[{s}->https://172.16.10.70:8080]][null]
+10 四月 2012 18:40:16 DEBUG conn.tsccm.ConnPoolByRoute - Notifying no-one, there are no waiting threads
+10 四月 2012 18:41:03 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:41:03 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:41:03 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:41:03 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:03 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:41:13 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:13 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:13 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:13 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:41:13 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:41:13 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:41:13 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:41:13 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:13 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:16 GMT[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:13 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:13 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:16 GMT
+10 四月 2012 18:41:13 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:13 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 200 OK
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - Content-Length: 116
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:16 GMT
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesClient - storageURL: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesClient - authToken: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesClient - cdnManagementURL:null
+10 四月 2012 18:41:13 DEBUG client.cloudfiles.FilesClient - ConnectionManager:org.apache.http.impl.conn.SingleClientConnManager@4b035d
+10 四月 2012 18:41:13 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:41:13 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@ca0115
+10 四月 2012 18:41:26 DEBUG client.cloudfiles.FilesClient - UserName: system:root
+10 四月 2012 18:41:26 DEBUG client.cloudfiles.FilesClient - AuthenticationURL: https://172.16.10.70:8080/auth/v1.0
+10 四月 2012 18:41:26 DEBUG client.cloudfiles.FilesClient - ConnectionTimeOut: 5000
+10 四月 2012 18:41:26 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:27 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:41:36 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:36 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:36 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:36 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:41:36 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 18:41:36 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 18:41:36 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 18:41:36 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:36 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:39 GMT[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:36 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:36 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:39 GMT
+10 四月 2012 18:41:36 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:36 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 200 OK
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - Content-Length: 116
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:39 GMT
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesClient - storageURL: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesClient - authToken: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesClient - cdnManagementURL:null
+10 四月 2012 18:41:36 DEBUG client.cloudfiles.FilesClient - ConnectionManager:org.apache.http.impl.conn.SingleClientConnManager@4b035d
+10 四月 2012 18:41:36 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:41:36 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@ca0115
+10 四月 2012 18:41:36 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:36 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:41:45 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:45 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:45 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:45 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "HTTP/1.1 404 Not Found[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:48 GMT[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:45 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << HTTP/1.1 404 Not Found
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:48 GMT
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:45 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:45 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1b8f864
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 404 Not Found
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:48 GMT
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:45 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:45 DEBUG impl.client.DefaultHttpClient - Stale connection check
+10 四月 2012 18:41:45 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:45 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:45 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:45 DEBUG impl.conn.DefaultClientConnection - Sending request: PUT /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "PUT /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "Content-Length: 0[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> PUT /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> Content-Length: 0
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:45 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "HTTP/1.1 201 Created[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Content-Length: 18[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:48 GMT[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:45 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:45 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << HTTP/1.1 201 Created
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Content-Length: 18
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:48 GMT
+10 四月 2012 18:41:45 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:45 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 201 Created
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Content-Length: 18
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:48 GMT
+10 四月 2012 18:41:45 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:45 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:41:45 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@ba9340
+10 四月 2012 18:41:45 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:45 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:41:54 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:54 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "X-Container-Object-Count: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "X-Container-Bytes-Used: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:57 GMT[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << X-Container-Object-Count: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << X-Container-Bytes-Used: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:57 GMT
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:54 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1198891
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - X-Container-Object-Count: 0
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - X-Container-Bytes-Used: 0
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Accept-Ranges: bytes
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:57 GMT
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:54 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Stale connection check
+10 四月 2012 18:41:54 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:54 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "X-Container-Object-Count: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "X-Container-Bytes-Used: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:57 GMT[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << X-Container-Object-Count: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << X-Container-Bytes-Used: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:57 GMT
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:54 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1126b07
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - X-Container-Object-Count: 0
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - X-Container-Bytes-Used: 0
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Accept-Ranges: bytes
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:57 GMT
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:54 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Stale connection check
+10 四月 2012 18:41:54 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:41:54 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Sending request: PUT /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "PUT /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Content-Length: 0[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> PUT /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Content-Length: 0
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:41:54 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "HTTP/1.1 202 Accepted[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Content-Length: 58[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:41:57 GMT[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:41:54 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 202 Accepted
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << HTTP/1.1 202 Accepted
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Content-Length: 58
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:41:57 GMT
+10 四月 2012 18:41:54 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:41:54 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 202 Accepted
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Content-Length: 58
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:41:57 GMT
+10 四月 2012 18:41:54 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnection - Connection shut down
+10 四月 2012 18:41:54 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@30d082
+10 四月 2012 18:41:54 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:41:54 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 18:42:03 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:42:03 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:42:03 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "X-Container-Object-Count: 0[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "X-Container-Bytes-Used: 0[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:42:06 GMT[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:42:03 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << X-Container-Object-Count: 0
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << X-Container-Bytes-Used: 0
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:42:06 GMT
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:42:03 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@f0c0d3
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - X-Container-Object-Count: 0
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - X-Container-Bytes-Used: 0
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Accept-Ranges: bytes
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:42:06 GMT
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:42:03 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Stale connection check
+10 四月 2012 18:42:03 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:42:03 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:42:03 DEBUG impl.conn.DefaultClientConnection - Sending request: DELETE /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "DELETE /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> DELETE /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:42:06 GMT[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:42:03 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:42:06 GMT
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:42:03 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@4f80d6
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:42:06 GMT
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesClient - Container Deleted : test-wx-container-2012_04_10_18_41_36_0229
+10 四月 2012 18:42:03 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Stale connection check
+10 四月 2012 18:42:03 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 18:42:03 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 18:42:03 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a/test-wx-container-2012_04_10_18_41_36_0229 HTTP/1.1
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 18:42:03 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "HTTP/1.1 404 Not Found[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 10:42:06 GMT[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 18:42:03 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 18:42:03 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << HTTP/1.1 404 Not Found
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 10:42:06 GMT
+10 四月 2012 18:42:03 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 18:42:03 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 18:42:03 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@193722c
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 404 Not Found
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Content-Type: text/html; charset=UTF-8
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 10:42:06 GMT
+10 四月 2012 18:42:03 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 19:01:43 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 19:01:43 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 19:01:52 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 19:01:52 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 19:01:52 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 19:01:52 DEBUG impl.conn.DefaultClientConnection - Sending request: GET /auth/v1.0 HTTP/1.1
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "GET /auth/v1.0 HTTP/1.1[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "X-Storage-User: system:root[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "X-Storage-Pass: testpass[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> GET /auth/v1.0 HTTP/1.1
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> X-Storage-User: system:root
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> X-Storage-Pass: testpass
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 19:01:52 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "Content-Length: 116[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 11:01:55 GMT[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 19:01:53 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << HTTP/1.1 200 OK
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << X-Storage-Url: https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << X-Storage-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << Content-Length: 116
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 11:01:55 GMT
+10 四月 2012 19:01:53 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 19:01:53 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 19:01:53 DEBUG apache.http.wire - << "{"storage": {"default": "local", "local": "https://172.16.10.70:8080/v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a"}}"
+10 四月 2012 19:01:53 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@f1bb78
+10 四月 2012 19:09:11 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 19:09:11 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 19:09:20 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 19:09:20 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 19:09:20 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 19:09:20 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:09:20 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 19:09:20 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 19:09:20 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 19:09:20 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 19:09:20 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "X-Account-Object-Count: 1560[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "X-Account-Bytes-Used: 3908614010[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "X-Account-Container-Count: 38[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 11:09:23 GMT[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 19:09:20 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 19:09:20 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << X-Account-Object-Count: 1560
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << X-Account-Container-Count: 38
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 11:09:23 GMT
+10 四月 2012 19:09:20 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 19:09:20 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 19:09:20 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1c92535
+10 四月 2012 19:12:09 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 19:12:09 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 19:12:18 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 19:12:18 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 19:12:18 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 19:12:18 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:12:18 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 19:12:18 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 19:12:18 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 19:12:18 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 19:12:18 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "X-Account-Object-Count: 1560[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "X-Account-Bytes-Used: 3908614010[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "X-Account-Container-Count: 38[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 11:12:21 GMT[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 19:12:18 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 19:12:18 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << X-Account-Object-Count: 1560
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << X-Account-Container-Count: 38
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 11:12:21 GMT
+10 四月 2012 19:12:18 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 19:12:18 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 19:12:18 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@1c92535
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - X-Account-Object-Count: 1560
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - X-Account-Container-Count: 38
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - Accept-Ranges: bytes
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 11:12:21 GMT
+10 四月 2012 19:12:18 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 19:15:02 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 19:15:02 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 19:15:11 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 19:15:11 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 19:15:11 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 19:15:11 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:15:11 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 19:15:11 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 19:15:11 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 19:15:11 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 19:15:11 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "X-Account-Object-Count: 1560[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "X-Account-Bytes-Used: 3908614010[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "X-Account-Container-Count: 38[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 11:15:14 GMT[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 19:15:11 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 19:15:11 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << X-Account-Object-Count: 1560
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << X-Account-Container-Count: 38
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 11:15:14 GMT
+10 四月 2012 19:15:11 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 19:15:11 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 19:15:11 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@b0ce8f
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - X-Account-Object-Count: 1560
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - X-Account-Container-Count: 38
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - Accept-Ranges: bytes
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 11:15:14 GMT
+10 四月 2012 19:15:11 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
+10 四月 2012 19:18:55 DEBUG impl.conn.SingleClientConnManager - Get connection for route HttpRoute[{s}->https://172.16.10.70:8080]
+10 四月 2012 19:18:55 DEBUG impl.conn.DefaultClientConnectionOperator - Connecting to 172.16.10.70:8080
+10 四月 2012 19:19:05 DEBUG client.protocol.RequestAddCookies - CookieSpec selected: best-match
+10 四月 2012 19:19:05 DEBUG client.protocol.RequestAuthCache - Auth cache not set in the context
+10 四月 2012 19:19:05 DEBUG impl.client.DefaultHttpClient - Attempt 1 to execute request
+10 四月 2012 19:19:05 DEBUG impl.conn.DefaultClientConnection - Sending request: HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "Accept: application/json[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "Host: 172.16.10.70:8080[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "User-Agent: Apache-HttpClient/4.1.3 (java 1.5)[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - >> "[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.headers - >> HEAD /v1/AUTH_316d8c49-76bd-4573-a0b6-6bcad670a63a HTTP/1.1
+10 四月 2012 19:19:05 DEBUG apache.http.headers - >> X-Auth-Token: AUTH_tke7c326f48e2a4d5daec79a83335584a2
+10 四月 2012 19:19:05 DEBUG apache.http.headers - >> Accept: application/json
+10 四月 2012 19:19:05 DEBUG apache.http.headers - >> Host: 172.16.10.70:8080
+10 四月 2012 19:19:05 DEBUG apache.http.headers - >> Connection: Keep-Alive
+10 四月 2012 19:19:05 DEBUG apache.http.headers - >> User-Agent: Apache-HttpClient/4.1.3 (java 1.5)
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "HTTP/1.1 204 No Content[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "X-Account-Object-Count: 1560[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "X-Account-Bytes-Used: 3908614010[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "X-Account-Container-Count: 38[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "Content-Length: 0[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "Date: Tue, 10 Apr 2012 11:19:08 GMT[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "Connection: keep-alive[\r][\n]"
+10 四月 2012 19:19:05 DEBUG apache.http.wire - << "[\r][\n]"
+10 四月 2012 19:19:05 DEBUG impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 204 No Content
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << HTTP/1.1 204 No Content
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << X-Account-Object-Count: 1560
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << X-Account-Container-Count: 38
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << Accept-Ranges: bytes
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << Content-Length: 0
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << Date: Tue, 10 Apr 2012 11:19:08 GMT
+10 四月 2012 19:19:05 DEBUG apache.http.headers - << Connection: keep-alive
+10 四月 2012 19:19:05 DEBUG impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+10 四月 2012 19:19:05 DEBUG impl.conn.SingleClientConnManager - Releasing connection org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter@b0ce8f
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - Status Line: HTTP/1.1 204 No Content
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - X-Account-Object-Count: 1560
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - X-Account-Bytes-Used: 3908614010
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - X-Account-Container-Count: 38
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - Accept-Ranges: bytes
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - Content-Length: 0
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - Date: Tue, 10 Apr 2012 11:19:08 GMT
+10 四月 2012 19:19:05 DEBUG client.cloudfiles.FilesResponse - Connection: keep-alive
